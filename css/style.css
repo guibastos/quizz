@@ -57,8 +57,8 @@ html {
 
 }
 
-.shopping-list {
-	margin: 2rem auto;
+.quizz {
+	margin: 2rem auto 0 auto;
 	display: block;
 	position: relative;
 	max-width: 400px;
@@ -72,11 +72,14 @@ html {
     filter: alpha(opacity=90);
 }
 
-.shopping-list h1 {
+.quizz h1 {
 	text-align: center;
 	font-family: 'Fondamento', cursive;
 	font-size: 2rem;
 	-webkit-font-smoothing: antialiased;
+	margin-bottom: 0;
+	padding-bottom: 0.5em;
+	border-bottom: 1px dotted #56321A;	
 }
 
 .question {
@@ -84,8 +87,8 @@ html {
 	font-family: 'Fondamento', cursive;
 	font-size: 1.5rem;
 	-webkit-font-smoothing: antialiased;
-	padding-top: 0.5em;
-	border-top: 1px dotted #56321A;	
+	margin-top: 0.5em;
+
 }
 
 .question span {
@@ -121,12 +124,6 @@ html {
 	border-radius: 0.4em;
 }
 
-/*.items-list li {
-	margin: 0;
-	padding-top: 0.5em;
-	padding-bottom: 0.7em;
-
-}*/
 
 .progress {
 	text-align: center;
